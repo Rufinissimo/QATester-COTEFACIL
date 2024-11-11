@@ -770,6 +770,6 @@ confirmar_cadastro(navegador)
 
         navegador.quit()
 
-    Para encerrar manualmente, clicar no botão 'Enter' no input a seguir.
+    Para encerrar manualmente, clicar na tecla 'Enter' no input a seguir.
 """
 print(input("\nPara encerrar o programa manualmente, aperte a tecla 'Enter'."))
