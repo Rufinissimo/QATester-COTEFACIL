@@ -2,8 +2,6 @@
     Teste de Palíndromo.
         ...
         O programa Teste de Palíndromo tem como objetivo testar uma palavra de modo que ela seja igual ao ler ao contrário.
-
-        Recomenda-se o uso em sistemas onde exista a necessidade de um palíndromo.
 """
 
 
