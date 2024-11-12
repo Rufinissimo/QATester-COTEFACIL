@@ -456,7 +456,7 @@ def selecionar_skill(navegador, skill):
             raise ValueError("O campo de skill não pode estar vazio.")
         
         if skill not in lista_skills:
-            raise ValueError(f"A skill '{skill}' não é válido.")
+            raise ValueError(f"A skill '{skill}' não é válida.")
 
         skills = WebDriverWait(navegador, 10).until(EC.presence_of_element_located((By.ID, "Skills")))
         select = Select(skills)
@@ -568,7 +568,7 @@ def preencher_senha(navegador, senha):
         Barras 'Password' e 'Confirm Password'
         --------------------------------------
         Inserir e confirmar a senha do usuário.
-        O input exige letras maíusculas, minúsculas e número para preencher a senha.
+        O input exige letras minúsculas, maiúsculas e número para preencher a senha.
 
         Parâmetros: Navegador, senha do usuário.
     """
