@@ -780,9 +780,9 @@ selecionar_pais(navegador, pais)
     dia = Dia de nascimento do usuário -> tipo inteiro (int)
     preencher_data(navegador, ano, mes, dia)
 """
-ano = 
-mes = 
-dia = 
+ano = None
+mes = None
+dia = None
 preencher_data(navegador, ano, mes, dia)
 
 
