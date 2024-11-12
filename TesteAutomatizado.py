@@ -667,7 +667,7 @@ def confirmar_cadastro(navegador):
     email_login = "usuario@email.com" -> tipo string (str)
     preencher_login(navegador, email_login)
 """
-email_login = "alucard@castlevania.com"
+email_login = ""
 preencher_login(navegador, email_login)
 confirmar_login(navegador)
 
@@ -678,7 +678,7 @@ confirmar_login(navegador)
     nome = "Nome do usuário" -> tipo string (str)
     preencher_nome(navegador, nome)
 """
-nome = "Alucard"
+nome = ""
 preencher_nome(navegador, nome) 
 
 
@@ -688,7 +688,7 @@ preencher_nome(navegador, nome)
     sobrenome = "Sobrenome do usuário" -> tipo string (str)
     preencher_sobrenome(navegador, sobrenome)
 """
-sobrenome = "Tepes"
+sobrenome = ""
 preencher_sobrenome(navegador, sobrenome) 
 
 
@@ -698,7 +698,7 @@ preencher_sobrenome(navegador, sobrenome)
     endereco = "Endereço do usuário" -> tipo string (str)
     preencher_endereco(navegador, endereco)
 """
-endereco = "Valachia, 666"
+endereco = ""
 preencher_endereco(navegador, endereco) 
 
 
@@ -708,7 +708,7 @@ preencher_endereco(navegador, endereco)
     email = "usuario@email.com" -> tipo string (str)
     preencher_email(navegador, email)
 """
-email = "alucard@castlevania.com"
+email = ""
 preencher_email(navegador, email) 
 
 
@@ -718,7 +718,7 @@ preencher_email(navegador, email)
     telefone = "0123456789" -> tipo string (str)
     preencher_telefone(navegador, telefone)
 """
-telefone = "0123456789"
+telefone = ""
 preencher_telefone(navegador, telefone) 
 
 
@@ -728,7 +728,7 @@ preencher_telefone(navegador, telefone)
     genero = "Gênero do usuário" -> tipo string (str)
     preencher_genero(navegador, genero)
 """
-genero = "Masculino"
+genero = ""
 selecionar_genero(navegador, genero) 
 
 
@@ -738,7 +738,7 @@ selecionar_genero(navegador, genero)
     hobbie = ["Hobbie do usuário"] -> tipo lista (list)
     selecionar_hobbie(navegador, hobbie)
 """
-hobbies = ["Movies"]
+hobbies = [""]
 selecionar_hobbie(navegador, hobbies)
 
 
@@ -748,7 +748,7 @@ selecionar_hobbie(navegador, hobbies)
     idiomas = ["Idiomas do usuário"] -> tipo lista (list)
     selecionar_idiomas(navegador, idiomas)
 """
-idiomas = ["Portuguese", "English"]
+idiomas = [""]
 selecionar_idiomas(navegador, idiomas)
 
 
@@ -758,7 +758,7 @@ selecionar_idiomas(navegador, idiomas)
     skill = "Skill do usuário" -> tipo string (str)
     selecionar_skill(navegador, skill)
 """
-skill = "Python"
+skill = ""
 selecionar_skill(navegador, skill) 
 
 
@@ -768,7 +768,7 @@ selecionar_skill(navegador, skill)
     pais = "País do usuário" -> tipo string (str)
     selecionar_pais(navegador, pais)
 """
-pais = "Brasil"
+pais = ""
 selecionar_pais(navegador, pais)
 
 
@@ -780,9 +780,9 @@ selecionar_pais(navegador, pais)
     dia = Dia de nascimento do usuário -> tipo inteiro (int)
     preencher_data(navegador, ano, mes, dia)
 """
-ano = 1950
-mes = 12
-dia = 2
+ano = 
+mes = 
+dia = 
 preencher_data(navegador, ano, mes, dia)
 
 
@@ -802,7 +802,7 @@ inserir_imagem(navegador, imagem)
     senha = "Senha123" -> tipo string (str)
     preencher_senha(navegador, senha)
 """
-senha = "Alucard123"
+senha = ""
 preencher_senha(navegador, senha)
 confirmar_cadastro(navegador)
 
