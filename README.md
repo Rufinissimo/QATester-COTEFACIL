@@ -1,4 +1,4 @@
-Com muita dedicação, criei os três projetos adicionados a esse repositório com o objetivo de demonstrar aos recrutadores da Cotefácil todo o meu potencial durante o processo seletivo para a vaga de Estágio em QA Tester.
+Com muita dedicação, criei os três projetos adicionados a este repositório com o objetivo de demonstrar aos recrutadores da Cotefácil todo o meu potencial durante o processo seletivo para a vaga de Estágio em QA Tester.
 
 Para os projetos "Palindromo" e "TesteAutomatizado", cada arquivo possui docstrings e comentários com instruções de configuração e de uso, além de informações detalhadas sobre o funcionamento do programa.
 
