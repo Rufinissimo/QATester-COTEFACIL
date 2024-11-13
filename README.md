@@ -8,4 +8,4 @@ Para os projetos "Palindromo" e "TesteAutomatizado", cada arquivo possui docstri
 3. O projeto "TesteAutomatizado" é um programa robusto que busca preencher automaticamente um formulário de cadastro completo em um site de testes de automação.
    Para sua execução, recomendo o uso de uma IDE com um terminal interativo com o usuário e um navegador.
 
-5. O arquivo "Fluxograma de Teste Manual - Cotefácil" é um fluxograma de teste manual para validar a funcionalidade do campo de busca por palavra.
+5. O arquivo "Fluxograma de Teste Manual" é um fluxograma de teste para validar a funcionalidade do campo de busca por palavra.
