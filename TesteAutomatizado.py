@@ -103,7 +103,7 @@ print("_" * 60)
     -------------
 """
 
-def preencher_login(navegador, email_login):
+def preencher_login(navegador, email_login: str):
     """
         Barra de login 'Email id for Sign Up'
         -------------------------------------
@@ -166,7 +166,7 @@ def confirmar_login(navegador):
     ------------------
 """
 
-def preencher_nome(navegador, nome):
+def preencher_nome(navegador, nome: str):
     """
         Barra 'Full Name'
         -----------------
@@ -195,7 +195,7 @@ def preencher_nome(navegador, nome):
     print("_" * 60)
 
 
-def preencher_sobrenome(navegador, sobrenome):
+def preencher_sobrenome(navegador, sobrenome: str):
     """
         Barra 'Last Name'
         -----------------
@@ -224,7 +224,7 @@ def preencher_sobrenome(navegador, sobrenome):
     print("_" * 60)
 
 
-def preencher_endereco(navegador, endereco):
+def preencher_endereco(navegador, endereco: str):
     """
         Barra 'Address'
         ---------------
@@ -253,7 +253,7 @@ def preencher_endereco(navegador, endereco):
     print("_" * 60)
 
 
-def preencher_email(navegador, email):
+def preencher_email(navegador, email: str):
     """
         Barra 'Email address'
         ---------------------
@@ -289,7 +289,7 @@ def preencher_email(navegador, email):
     print("_" * 60)
 
 
-def preencher_telefone(navegador, telefone):
+def preencher_telefone(navegador, telefone: str):
     """
         Barra 'Phone'
         -------------
@@ -323,7 +323,7 @@ def preencher_telefone(navegador, telefone):
     print("_" * 60)
 
 
-def selecionar_genero(navegador, genero):
+def selecionar_genero(navegador, genero: str):
     """
         Radio button 'Gender'
         ---------------------
@@ -361,7 +361,7 @@ def selecionar_genero(navegador, genero):
     print("_" * 60)
 
 
-def selecionar_hobbie(navegador, hobbies):
+def selecionar_hobbie(navegador, hobbies: list):
     """
         Checkbox 'Hobbies'
         ------------------
@@ -399,7 +399,7 @@ def selecionar_hobbie(navegador, hobbies):
     print("_" * 60)
 
 
-def selecionar_idiomas(navegador, idiomas):
+def selecionar_idiomas(navegador, idiomas: list):
     """
         Barra 'Languages'
         -----------------
@@ -439,7 +439,7 @@ def selecionar_idiomas(navegador, idiomas):
     print("_" * 60)
 
 
-def selecionar_skill(navegador, skill):
+def selecionar_skill(navegador, skill: str):
     """
         Botão de opção 'Skills'
         ----------------------
@@ -481,7 +481,7 @@ def selecionar_skill(navegador, skill):
     print("_" * 60)
 
 
-def selecionar_pais(navegador, pais):
+def selecionar_pais(navegador, pais: str):
     """
         Botão de opção 'Country'
         ------------------------
@@ -518,7 +518,7 @@ def selecionar_pais(navegador, pais):
     print("_" * 60)
 
 
-def preencher_data(navegador, ano, mes, dia):
+def preencher_data(navegador, ano: int, mes: int, dia: int):
     """
         Botão de opção 'Date Of Birth'
         ------------------------------
@@ -569,7 +569,7 @@ def preencher_data(navegador, ano, mes, dia):
     print("_" * 60)
 
 
-def inserir_imagem(navegador, imagem):
+def inserir_imagem(navegador, imagem: str):
     """
         Botão 'Escolher arquivo'
         ------------------------
@@ -595,7 +595,7 @@ def inserir_imagem(navegador, imagem):
     print("_" * 60)
 
 
-def preencher_senha(navegador, senha):
+def preencher_senha(navegador, senha: str):
     """
         Barras 'Password' e 'Confirm Password'
         --------------------------------------
