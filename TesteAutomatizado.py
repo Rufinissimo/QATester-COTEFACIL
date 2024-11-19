@@ -361,7 +361,7 @@ def selecionar_genero(navegador, genero: str):
     print("_" * 60)
 
 
-def selecionar_hobbie(navegador, hobbies: list):
+def selecionar_hobbie(navegador, hobbies: list[str]):
     """
         Checkbox 'Hobbies'
         ------------------
@@ -399,7 +399,7 @@ def selecionar_hobbie(navegador, hobbies: list):
     print("_" * 60)
 
 
-def selecionar_idiomas(navegador, idiomas: list):
+def selecionar_idiomas(navegador, idiomas: list[str]):
     """
         Barra 'Languages'
         -----------------
